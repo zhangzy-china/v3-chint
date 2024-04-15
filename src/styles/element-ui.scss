@@ -1,0 +1,17 @@
+.global-select {
+  border: 0;
+
+  .el-select__wrapper {
+    box-shadow: 0 0 0;
+    background: #eaf1f7;
+
+    &:hover {
+      box-shadow: 0 0 0;
+      background: #eaf1f7;
+    }
+    &:focus-within{
+      background: #ccc;
+    }
+  }
+
+}
